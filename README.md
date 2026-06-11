@@ -1,13 +1,13 @@
-# Eye-Health-Prediction
-Machine Learning project for eye health condition prediction
-
-
 # Eye Health Condition Analysis and Prediction
 
 ## Overview
-This project applies Machine Learning techniques to predict eye health conditions using clinical patient data. The workflow includes data preprocessing, exploratory data analysis (EDA), feature engineering, classification, clustering, and dashboard-based visualization.
+
+This project applies Machine Learning techniques to analyze clinical patient data and predict eye health conditions. The workflow covers the complete data science lifecycle, including data preprocessing, exploratory data analysis (EDA), feature engineering, predictive modeling, clustering, and dashboard-based visualization. The goal is to identify key factors influencing eye health and generate actionable insights for data-driven healthcare decision-making.
+
+---
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -16,20 +16,86 @@ This project applies Machine Learning techniques to predict eye health condition
 - Power BI
 - Excel
 
+---
+
 ## Methodology
-1. Data Cleaning and Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Random Forest Classification
-5. K-Means Clustering
-6. Feature Importance Analysis
-7. Interactive Dashboard Development
+
+### 1. Data Cleaning and Preprocessing
+- Handled missing values and inconsistencies
+- Applied Label Encoding for categorical features
+- Standardized numerical variables using StandardScaler
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed feature distributions and correlations
+- Generated heatmaps, pairplots, and statistical summaries
+- Identified patterns and trends within patient data
+
+### 3. Feature Engineering
+- Selected relevant clinical features
+- Created optimized inputs for machine learning models
+- Improved data quality for predictive modeling
+
+### 4. Machine Learning Modeling
+- Trained a Random Forest Classifier for eye condition prediction
+- Evaluated model performance using classification metrics
+- Conducted feature importance analysis to identify significant predictors
+
+### 5. Patient Segmentation
+- Applied K-Means Clustering using the Elbow Method
+- Segmented patients into meaningful groups
+- Analyzed cluster characteristics for additional insights
+
+### 6. Data Visualization
+- Built interactive visualizations using Plotly
+- Developed Power BI dashboards for stakeholder reporting
+- Presented findings through clear and actionable visual insights
+
+---
 
 ## Key Outcomes
-- Built an end-to-end machine learning pipeline
-- Identified important predictors of eye health conditions
-- Segmented patient groups using clustering
-- Generated interactive visualizations and dashboards
+
+- Developed an end-to-end machine learning pipeline
+- Successfully implemented Random Forest classification
+- Applied K-Means clustering for patient segmentation
+- Identified important clinical predictors through feature importance analysis
+- Generated interactive dashboards and visual reports
+- Demonstrated practical applications of machine learning in healthcare analytics
+
+---
 
 ## Skills Demonstrated
-Machine Learning, Data Analysis, Predictive Modeling, Data Visualization, Feature Engineering, Healthcare Analytics
+
+- Machine Learning
+- Predictive Modeling
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Preprocessing
+- Statistical Analysis
+- Classification
+- Clustering
+- Data Visualization
+- Healthcare Analytics
+- Power BI Dashboard Development
+
+---
+
+## Repository Contents
+
+| File | Description |
+|------|-------------|
+| Eye_Health_Prediction.ipynb | Complete machine learning project notebook |
+| README.md | Project documentation |
+
+---
+
+## Author
+
+**Vijayalakshmi S**
+
+M.Sc. Data Science Candidate  
+SASTRA Deemed University
+
+LinkedIn: linkedin.com/in/Vijayalakshmi-S
+
+GitHub: github.com/vijayalakshmis0304-sudo
